@@ -1,0 +1,89 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:20px ;
+
+}
+nav{
+    display: flex;
+    gap: 20px;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.hero button{
+    background-color:  #5B4FD6;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+}
+h1{
+     color:  #1B2340;
+     font-size: 50px;
+}
+.sur-h1{
+    color:  #5B4FD6;
+
+}
+
+.pxl-prpl{
+    color: #5B4FD6;
+    display: flex;
+    justify-content: start;
+}
+.right-hero{
+    width: 150px;
+    background-color:  #1B2340;
+    padding: 50px ;
+    color: white;
+    border-radius: 16px;
+    
+}
+.troi-redius{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.border-white{
+    background-color: white;
+    border-radius: 16px; 
+    padding: 15px 50px;
+    
+}
+.clr-perpl{
+    color: #5B4FD6;
+}
+.marg-left{
+    margin-left: 140px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+}
+@media screen and (max-width: 375px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .marg-left{
+        margin-left: 20px;
+
+    }
+    .troi-redius{
+        gap: 15px;
+    }
+    
+}
+    
